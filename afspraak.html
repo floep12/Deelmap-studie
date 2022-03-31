@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"><title>Tandartsafspraak</title>
+</head>
+<body>
+<h1>Tandartsafspraak</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut ex risus. Donec aliquam tempus urna quis elementum. Donec varius lectus quis ligula blandit scelerisque. Aenean scelerisque sit amet tellus sed efficitur. Quisque placerat, nunc sit amet porttitor maximus, magna quam fermentum lectus, et ullamcorper leo ex auctor justo. Nullam efficitur purus orci, eget ornare odio eleifend vel. Quisque iaculis cursus nunc eu dictum. Curabitur in neque eros. Ut iaculis dui lacus, sed imperdiet ligula varius ut.</p>
+<br><img src="Afbeeldingen/china.jpg" 
+alt="tandarts china" title="tandarts china" width="300"/>
+<img src="Afbeeldingen/koudum.jpg" alt="tandarts koudum" width="300"/>
+<img src="Afbeeldingen/tandarts.jpg" alt="tandarts" width="300"/>
+<form id="contactform" 
+action="https://formspree.io/f/xeqnlgze" 
+method="post">
+<fieldset>
+<legend>Persoonlijke gegevens
+</legend>
+<table width ="600" border="0">
+<tbody>
+<tr>
+<td width="150">
+<label for="Geslacht">Geslacht:</label></td>
+<td width="400">
+<input type="radio" name="geslacht" value="man">Man
+<input type="radio" name="geslacht" value="vrouw">Vrouw
+<input type="radio" name="geslacht" value="anders" checked>Anders
+</td>
+</tr>
+<tr>
+<td width="150">
+<label for="naam">Naam:</label></td>
+<td width="400">
+<input id="naam" type="text" name="naam"></td>
+</tr>
+<tr>
+<td width="150">
+<label for="adres">Adres:</label></td>
+<td width="400">
+<input type="text" id="adres" name="adres"></td>
+</tr>
+<tr>
+<td width="150">
+<label for="woonplaats">Woonplaats:</label></td>
+<td width="400">
+<input type="text" id="woonplaats" name="woonplaats"><br></td>
+</tr>
+<tr>
+<td width="150">
+<label for="emailadres">Uw email:</label></td>
+<td width="400">
+<input type="email" id="email" name="email"></td>
+</tr>
+<tr>
+<td width="150">
+<label for="emailadres">Uw telefoonnummer:</label></td>
+<td width="400">
+<input type="tel" id="telefoon" name="telefoon"></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+<br>
+<fieldset>
+<legend>Beschrijving van de klachten:
+</legend>
+<table width ="600" border="0">
+<tbody>
+<tr>
+<td width="150">
+<label for="Soort klacht">Soort klacht:</label></td>
+<td width="400">
+<input type="checkbox" name="soort klacht" value="ja">Pijn aan tand
+<input type="checkbox" name="soort klacht" value="ja">Pijn aan kies
+<input type="checkbox" name="soort klacht" value="ja">Vulling is eruit
+<input type="checkbox" name="soort klacht" value="ja">Tandvlees
+</td>
+</tr>
+<tr>
+<td width="100">
+<label for="Foto">Stuur een foto van uw gebit:</label></td>
+<td width="400">
+<input type="file" name="foto" value="foto">
+</td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+<br>
+<fieldset>
+<legend>Toelichting van de klachten:
+</legend>
+<table width ="600" border="0">
+<tbody>
+<tr>
+<td width="150">
+<label for="toelichting">Licht uw klachten toe:</label></td>
+<td width="400"><textarea name="toelichting" maxlength="1000">
+</textarea>
+</td>
+</tr>
+<tr>
+<td width="150">
+<label for="datum">Gewenste datum voor afspraak:</label></td>
+<td width="400">
+<input id="datum" type="date" name="datum"></td>
+</tr>
+</tbody>
+</table>
+</fieldset>
+<br>
+<input type="text" name="_gotcha" style="display:none"/>
+<input type="submit" value="Verzend">
+<br>
+</form>
+</body>
+</html>
