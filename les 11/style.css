@@ -1,0 +1,88 @@
+header {
+	background: #D5C5E0;
+	width: 100%;
+	height: 250px;
+	
+}
+
+footer {
+	background: #A9A2AB;
+	width: 100%;
+	height: 250px;
+	
+}
+table {
+	width: 800px;
+	height: 800px;
+	border: 1px solid;
+}
+td {
+	width: 200px;
+	text-align: center;
+}
+#een {
+	background-color: red;
+	color: blue;
+}
+#twee {
+	background-color: blue;
+	color: yellow;
+}
+#drie {
+	background-color: yellow;
+	color: green;
+}
+#vier {
+	background-color: green;
+	color: indianred;
+	}
+#vijf {
+	background-color: indianred;
+	color: royalblue;
+}
+#zes {
+	background-color: royalblue;
+	color: khaki;
+}
+#zeven {
+	background-color: khaki;
+	color: greenyellow;
+}
+#acht {
+	background-color: greenyellow;
+	color: lightpink;
+	text-align: center;
+}
+#negen {
+	background-color: lightpink;
+	color: skyblue;
+}
+#tien {
+	background-color: skyblue;
+	color: papayawhip;
+}
+#elf {
+	background-color: papayawhip;
+	color: yellowgreen;
+	}
+#twaalf {
+	background-color: yellowgreen;
+	color: deeppink;
+
+}
+#dertien {
+	background-color: deeppink;
+	color: deepskyblue;
+	}
+#veertien {
+	background-color: deepskyblue;
+	color: gold;
+}
+#vijftien {
+	color: lime;
+}
+#zestien {
+	background-color: Lime;
+	color: red;
+}
+
