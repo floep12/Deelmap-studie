@@ -55,17 +55,23 @@ table, th, td{
 	padding: 10px 5px;
 }
 #table{
+	margin-left: auto;
+  margin-right: auto;
 	margin-bottom: 40px;
 }
 
+fieldset{
+	margin-bottom: 10px;
+}
 form{
 	background-color: azure;
 	margin-bottom: 40px;
+	padding: 5px;
 }
 input[type="text"], input[type="email"], textarea, select, button{
 	display: block;
 	margin: 15px 5px;
-  width: 400px;
+  width: 300px;
 	box-sizing: border-box;
 }
 textarea{
