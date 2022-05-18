@@ -1,0 +1,20 @@
+img{
+  max-width: 250px;
+  max-height: 300px;
+}
+.textarea{
+  width: 250px;
+  height: 250px;
+maxlength: 1000;
+}
+.footer {
+  min-height: 200px;
+  margin-top: 20px;
+}
+.container-sm{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.navbar{
+  margin-bottom: 20px;
+}
